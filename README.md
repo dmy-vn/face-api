@@ -1,6 +1,6 @@
 # Face Recognition API
 
-FastAPI service that stores a face embedding when you register a photo and returns the owner's name when you send a new photo. Built for the PT Widya Inovasi Indonesia AI Engineer knowledge test (`face_req.md`).
+FastAPI service that stores a face embedding when you register a photo and returns the owner's name when you send a new photo.
 
 ## API Reference
 
@@ -87,11 +87,3 @@ With a single-face photo (like `sample.jpg`) it prints `embedding shape: (512,)`
 - Registered faces live in `data/faces.db`. Delete that file to start fresh.
 - The 25-identity accuracy and F1 evaluation required by the test is not in this repository yet.
 
-## Documents
-
-| File | Contents |
-|---|---|
-| `face_req.md` | Original test requirement |
-| `Face-API_Implementation_Plan.docx` | Stack choices, alternatives considered, data sources, references |
-| `Face-API_Step_by_Step_Guide.docx` | Build walkthrough with full code for every step |
-| `Face-API_Design_Reasoning.docx` | Why each component is built this way, with citations |
