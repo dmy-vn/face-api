@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from insightface.app import FaceAnalysis
 
-from . import database
+import database
 
 # Fail errors
 NO_FACE = "No face detected"
