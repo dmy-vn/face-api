@@ -1,6 +1,6 @@
 # Face Recognition API
 
-FastAPI service that stores a face embedding when you register a photo and returns the owner's name when you send a new photo. Built for the PT Widya Inovasi Indonesia AI Engineer knowledge test (`face_req.md`).
+FastAPI service that stores a face embedding when you register a photo and returns the owner's name when you send a new photo.
 
 ## API Reference
 
